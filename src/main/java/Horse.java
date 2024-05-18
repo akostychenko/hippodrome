@@ -44,7 +44,8 @@ public class Horse {
         distance += speed * getRandomDouble(0.2, 0.9);
     }
 
-    public static double getRandomDouble(double min, double max) {
+    public static double getRandomDouble(double min, double max)
+    {
         return (Math.random() * (max - min)) + min;
     }
 }
