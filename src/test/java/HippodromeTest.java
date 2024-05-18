@@ -36,7 +36,6 @@ public class HippodromeTest {
         for (Horse horse : horses) {
             verify(horse, times(2)).move();
         }
-       // assertArrayEquals(horses.toArray(), hippodrome.getHorses().toArray());
     }
 
     @Test
