@@ -34,7 +34,7 @@ public class HippodromeTest {
 
         new Hippodrome(horses).move();
         for (Horse horse : horses) {
-            verify(horse, times(2)).move();
+            verify(horse, times(1)).move();
         }
     }
 
